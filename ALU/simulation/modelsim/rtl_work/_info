@@ -1,0 +1,220 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/EE214/ALU/simulation/modelsim
+Ealu_beh
+Z1 w1632224051
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+R0
+Z4 8D:/EE214/ALU/ALU.vhdl
+Z5 FD:/EE214/ALU/ALU.vhdl
+l0
+L5 1
+V;G2E;gFNbV0D4cFzIZoi^1
+!s100 >RbVd0oiK7G=D`5=IKoD11
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1632547606
+!i10b 1
+Z8 !s108 1632547606.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/EE214/ALU/ALU.vhdl|
+Z10 !s107 D:/EE214/ALU/ALU.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aa1
+R2
+R3
+DEx4 work 7 alu_beh 0 22 ;G2E;gFNbV0D4cFzIZoi^1
+!i122 4
+l49
+L18 46
+Vkb9cOZmHaBlN9S1iW9RJB1
+!s100 K`4cejcnSSD8W=3UIM<GZ3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1632222595
+R2
+R3
+!i122 3
+R0
+Z14 8D:/EE214/ALU/DUT.vhdl
+Z15 FD:/EE214/ALU/DUT.vhdl
+l0
+L3 1
+Va]AiXAZV>@;Z_K_^g5emC0
+!s100 5n;mKN6W96HMbffQ3]S:41
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|D:/EE214/ALU/DUT.vhdl|
+Z17 !s107 D:/EE214/ALU/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 a]AiXAZV>@;Z_K_^g5emC0
+!i122 3
+l19
+L11 31
+VeUQ7TL=DTkhiXk<I44FAm0
+!s100 @2Sm46ejld^;cCMeQj3Pd0
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Etestbench
+Z18 w1632221959
+R3
+R2
+!i122 5
+R0
+Z19 8D:/EE214/ALU/Testbench.vhdl
+Z20 FD:/EE214/ALU/Testbench.vhdl
+l0
+L7 1
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-93|-work|work|D:/EE214/ALU/Testbench.vhdl|
+!s107 D:/EE214/ALU/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+!i122 5
+l69
+L9 132
+V_B^m=O[2gRLEOA?Y0liY53
+!s100 F:ULz5^kWik:f^?aj`LZ>0
+R6
+31
+R7
+!i10b 1
+R8
+R21
+Z22 !s107 D:/EE214/ALU/Testbench.vhdl|
+!i113 1
+R11
+R12
+Etoplevel
+Z23 w1632224382
+Z24 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 2
+R0
+Z25 8D:/EE214/ALU/TopLevel.vhdl
+Z26 FD:/EE214/ALU/TopLevel.vhdl
+l0
+L5 1
+VRW=hg7X2^>c3bX1h9KmmK0
+!s100 gJ^gg3F;Qe=>jcbTR:JjO3
+R6
+31
+R7
+!i10b 1
+R8
+Z27 !s90 -reportprogress|300|-93|-work|work|D:/EE214/ALU/TopLevel.vhdl|
+Z28 !s107 D:/EE214/ALU/TopLevel.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R24
+R2
+R3
+DEx4 work 8 toplevel 0 22 RW=hg7X2^>c3bX1h9KmmK0
+!i122 2
+l75
+L13 146
+VW^VcL1AS58Dc@@0CT=k1c0
+!s100 7QRONelQ5<0]f`;ISOPzf3
+R6
+31
+R7
+!i10b 1
+R8
+R27
+R28
+!i113 1
+R11
+R12
+Ev_jtag
+Z29 w1623670142
+R24
+R2
+R3
+!i122 1
+R0
+Z30 8D:/EE214/ALU/v_jtag/synthesis/v_jtag.vhd
+Z31 FD:/EE214/ALU/v_jtag/synthesis/v_jtag.vhd
+l0
+L9 1
+VK7J:B[m3^:cB1Km[I3N602
+!s100 C:GMYKMFIUkIMaKNS>ek<2
+R6
+31
+R7
+!i10b 1
+R8
+Z32 !s90 -reportprogress|300|-93|-work|work|D:/EE214/ALU/v_jtag/synthesis/v_jtag.vhd|
+Z33 !s107 D:/EE214/ALU/v_jtag/synthesis/v_jtag.vhd|
+!i113 1
+R11
+R12
+Artl
+R24
+R2
+R3
+DEx4 work 6 v_jtag 0 22 K7J:B[m3^:cB1Km[I3N602
+!i122 1
+l85
+L44 83
+VJODH=ZQLe0=R51Pn2gWGM3
+!s100 QN^;ea;8E9NBL5]J::=Mk2
+R6
+31
+R7
+!i10b 1
+R8
+R32
+R33
+!i113 1
+R11
+R12

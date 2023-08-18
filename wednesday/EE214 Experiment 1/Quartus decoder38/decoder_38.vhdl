@@ -1,0 +1,20 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.Gates.all;
+entity decoder38 is
+port(A2,A1,A0,E: in std_logic;
+    Y7,Y6,Y5,Y4,Y3,Y2,Y1,Y0: out std_logic);
+end entity;
+architecture structure of decoder38 is
+component decoder24 is
+port(A1,A0,E: in std_logic;
+     Y3,Y2,Y1,Y0: out std_logic);
+end component;
+signal L1,L2,L3: std_logic;
+begin
+INVERTER1:INVERTER port map(A=>A2,Y=>L1);
+AND1:AND_2 port map(A=>L1,B=>E,C=>'1',Y=>L2);
+AND2:AND_2 port map (A=>E,B=>A2,C=>'1',Y=>L3);
+decoder1:decoder24 port map(A1=>A1,A0=>A0,E=>L3,Y3=>Y7,Y2=>Y6,Y1=>Y5,Y0=>Y4);
+decoder2:decoder24 port map(A1=>A1,A0=>A0,E=>L2,Y3=>Y3,Y2=>Y2,Y1=>Y1,Y0=>Y0);
+end structure;

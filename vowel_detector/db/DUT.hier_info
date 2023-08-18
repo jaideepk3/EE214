@@ -1,0 +1,39 @@
+|DUT
+input_vector[0] => vowel_detector:add_instance.I0
+input_vector[1] => vowel_detector:add_instance.I1
+input_vector[2] => vowel_detector:add_instance.I2
+input_vector[3] => vowel_detector:add_instance.I3
+output_vector[0] << vowel_detector:add_instance.Y
+
+
+|DUT|vowel_detector:add_instance
+I0 => INVERTER:in0.A
+I1 => XNOR_2:xnor1.B
+I2 => AND_2:and1.A
+I3 => AND_2:and1.B
+Y <= AND_2:and2.Y
+
+
+|DUT|vowel_detector:add_instance|INVERTER:in0
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|vowel_detector:add_instance|AND_2:and1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|vowel_detector:add_instance|XNOR_2:xnor1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|vowel_detector:add_instance|AND_2:and2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

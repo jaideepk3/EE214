@@ -1,0 +1,613 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/lenovo/Documents/Universal Shifter/simulation/modelsim
+Eand_2
+Z1 w1631101759
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z4 8C:/Users/lenovo/Documents/Universal Shifter/Gates.vhdl
+Z5 FC:/Users/lenovo/Documents/Universal Shifter/Gates.vhdl
+l0
+L58 1
+V]RG07MbPYi[V0Ao39m6:j2
+!s100 UzW`<RPU]A1l35?BD`S?:2
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1631102354
+!i10b 1
+Z8 !s108 1631102352.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/lenovo/Documents/Universal Shifter/Gates.vhdl|
+Z10 !s107 C:/Users/lenovo/Documents/Universal Shifter/Gates.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aequations
+R2
+R3
+DEx4 work 5 and_2 0 22 ]RG07MbPYi[V0Ao39m6:j2
+!i122 2
+l63
+L62 4
+Vn2W3gnTbmM6RL<12A4kQo3
+!s100 UGcFAa2CFfL9bz[94MAkA0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1631100905
+R2
+R3
+!i122 3
+R0
+Z14 8C:/Users/lenovo/Documents/Universal Shifter/DUT.vhdl
+Z15 FC:/Users/lenovo/Documents/Universal Shifter/DUT.vhdl
+l0
+L3 1
+VP@lWckLh8F8_j1ZhP^^ff1
+!s100 ;Tz98g@9fBaa3XdkIcfcz3
+R6
+31
+Z16 !s110 1631102356
+!i10b 1
+Z17 !s108 1631102355.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/lenovo/Documents/Universal Shifter/DUT.vhdl|
+Z19 !s107 C:/Users/lenovo/Documents/Universal Shifter/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 P@lWckLh8F8_j1ZhP^^ff1
+!i122 3
+l14
+L7 30
+V4fHS:^fWCG42BOmG@074^2
+!s100 iGX8NX^RH3XCA2Z5ko2XN0
+R6
+31
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Pgates
+R2
+R3
+!i122 2
+R1
+R0
+R4
+R5
+l0
+L3 1
+VP]CXc^2LYUAki[:ZaTl:J0
+!s100 =d9cAbZSLWL1AM;`?HfV01
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalf_adder
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L125 1
+V2aO9V^NCSmmmfE7U_WlN92
+!s100 JJWN<W29hXcU?T6mZLe<V3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 10 half_adder 0 22 2aO9V^NCSmmmfE7U_WlN92
+!i122 2
+l130
+L129 5
+VOPjL5zY;;[@[OYne?@WzV0
+!s100 R^Nd=0I?fHEmOMnJ1OEOE3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Einverter
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L46 1
+V`nU55j8?X5j?F6V7eJAZc2
+!s100 d2R=F2dS<=`Fj6mn2Cj;V2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 8 inverter 0 22 `nU55j8?X5j?F6V7eJAZc2
+!i122 2
+l51
+L50 4
+VAVOYfYen36DY;X[FT94XI0
+!s100 14aXV^eX5KQXjG=3V3LXN0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emux
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L138 1
+V`OFjTeUnJk6GLMlCV@kGE1
+!s100 =OO^P3UgUd?Fk>W=^YE;m1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 3 mux 0 22 `OFjTeUnJk6GLMlCV@kGE1
+!i122 2
+l157
+L142 22
+Va]58LSHDENS8AAo]60IR<3
+!s100 fZo714S4A4aGXSB:K[cKE1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enand_2
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L69 1
+V4M4Q>BNfaY2gEX0@T>mgC1
+!s100 GXD7og>AAe?coIU>ef8?33
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 nand_2 0 22 4M4Q>BNfaY2gEX0@T>mgC1
+!i122 2
+l74
+L73 4
+VPm75`0P3KkXz`KWESgcS>2
+!s100 FG;XFOXMK0>N_cdA;?kie1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enor_2
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L91 1
+VTCX[Ok0LFNj]cJDQE@V8`0
+!s100 KenEBZW?b[c^:ZMCoZ]IR1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 nor_2 0 22 TCX[Ok0LFNj]cJDQE@V8`0
+!i122 2
+l96
+L95 4
+VfW]Un`GTkBnNZmWYPC<Qm3
+!s100 U:^g=5keQPm8YkS;ae]8c2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_2
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L80 1
+VcI<CkMH0V6BPhEADZ3cad0
+!s100 e7LT`cXUgiPeR_T?_OL`>0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 4 or_2 0 22 cI<CkMH0V6BPhEADZ3cad0
+!i122 2
+l85
+L84 4
+VV;m9L46]aY<aM3cMGcKl:3
+!s100 amc1l1BMM0c2KBYbZ0:Vk0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench
+Z20 w1631098786
+R3
+R2
+!i122 6
+R0
+Z21 8C:/Users/lenovo/Documents/Universal Shifter/Testbench.vhdl
+Z22 FC:/Users/lenovo/Documents/Universal Shifter/Testbench.vhdl
+l0
+L7 1
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+Z23 !s110 1631102363
+!i10b 1
+Z24 !s108 1631102361.000000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/lenovo/Documents/Universal Shifter/Testbench.vhdl|
+!s107 C:/Users/lenovo/Documents/Universal Shifter/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+!i122 6
+l69
+L9 132
+VDA41R1@D;eemz8MEALmTR2
+!s100 ^m^aVTNeliPL3FaEmdoP21
+R6
+31
+R23
+!i10b 1
+R24
+R25
+Z26 !s107 C:/Users/lenovo/Documents/Universal Shifter/Testbench.vhdl|
+!i113 1
+R11
+R12
+Etoplevel
+Z27 w1631098690
+Z28 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 4
+R0
+Z29 8C:/Users/lenovo/Documents/Universal Shifter/TopLevel.vhdl
+Z30 FC:/Users/lenovo/Documents/Universal Shifter/TopLevel.vhdl
+l0
+L5 1
+VRW=hg7X2^>c3bX1h9KmmK0
+!s100 gJ^gg3F;Qe=>jcbTR:JjO3
+R6
+31
+Z31 !s110 1631102358
+!i10b 1
+Z32 !s108 1631102357.000000
+Z33 !s90 -reportprogress|300|-93|-work|work|C:/Users/lenovo/Documents/Universal Shifter/TopLevel.vhdl|
+Z34 !s107 C:/Users/lenovo/Documents/Universal Shifter/TopLevel.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R28
+R2
+R3
+DEx4 work 8 toplevel 0 22 RW=hg7X2^>c3bX1h9KmmK0
+!i122 4
+l75
+L13 146
+V3egHi9i;_]?PdZgk`l7O62
+!s100 ca_LVm6Z3kTDfTCIYVolW1
+R6
+31
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R11
+R12
+Euniversalshifter
+Z35 w1631100876
+Z36 DPx4 work 5 gates 0 22 P]CXc^2LYUAki[:ZaTl:J0
+R2
+R3
+!i122 5
+R0
+Z37 8C:/Users/lenovo/Documents/Universal Shifter/universalshifter.vhdl
+Z38 FC:/Users/lenovo/Documents/Universal Shifter/universalshifter.vhdl
+l0
+L7 1
+Vof02hC8a`0[_icNzOY81O2
+!s100 ncDGT@Fn28ez9Md3^_ciC0
+R6
+31
+Z39 !s110 1631102360
+!i10b 1
+Z40 !s108 1631102359.000000
+Z41 !s90 -reportprogress|300|-93|-work|work|C:/Users/lenovo/Documents/Universal Shifter/universalshifter.vhdl|
+Z42 !s107 C:/Users/lenovo/Documents/Universal Shifter/universalshifter.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R36
+R2
+R3
+DEx4 work 16 universalshifter 0 22 of02hC8a`0[_icNzOY81O2
+!i122 5
+l16
+L14 62
+VVeATk_f`gFZ;U5eU9gnZ?2
+!s100 RiZgC:M_o>mSgB5^OFW=J0
+R6
+31
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R11
+R12
+Ev_jtag
+Z43 w1623670142
+R28
+R2
+R3
+!i122 1
+R0
+Z44 8C:/Users/lenovo/Documents/Scan_Chain_Files/Scan_Chain_Files/v_jtag/synthesis/v_jtag.vhd
+Z45 FC:/Users/lenovo/Documents/Scan_Chain_Files/Scan_Chain_Files/v_jtag/synthesis/v_jtag.vhd
+l0
+L9 1
+VK7J:B[m3^:cB1Km[I3N602
+!s100 C:GMYKMFIUkIMaKNS>ek<2
+R6
+31
+Z46 !s110 1631102351
+!i10b 1
+Z47 !s108 1631102350.000000
+Z48 !s90 -reportprogress|300|-93|-work|work|C:/Users/lenovo/Documents/Scan_Chain_Files/Scan_Chain_Files/v_jtag/synthesis/v_jtag.vhd|
+Z49 !s107 C:/Users/lenovo/Documents/Scan_Chain_Files/Scan_Chain_Files/v_jtag/synthesis/v_jtag.vhd|
+!i113 1
+R11
+R12
+Artl
+R28
+R2
+R3
+DEx4 work 6 v_jtag 0 22 K7J:B[m3^:cB1Km[I3N602
+!i122 1
+l85
+L44 83
+VJODH=ZQLe0=R51Pn2gWGM3
+!s100 QN^;ea;8E9NBL5]J::=Mk2
+R6
+31
+R46
+!i10b 1
+R47
+R48
+R49
+!i113 1
+R11
+R12
+Exnor_2
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L114 1
+V`]4C0<h_h42HE0`j_oh:02
+!s100 b=`MVk]zeWBUXbcE<8LeL2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 xnor_2 0 22 `]4C0<h_h42HE0`j_oh:02
+!i122 2
+l119
+L118 4
+V^Y6Xd`:5NZe2_Om0m^Znh1
+!s100 gZo<BjVzYC7mN:Z@ZfR6B0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exor_2
+R1
+R2
+R3
+!i122 2
+R0
+R4
+R5
+l0
+L103 1
+V3?k8R>0LH_3f5I8=fQaTI3
+!s100 aYOl=d93a=e^kZPYAzWO03
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 xor_2 0 22 3?k8R>0LH_3f5I8=fQaTI3
+!i122 2
+l108
+L107 4
+VF]akO]fH85S2c6[URSjGm2
+!s100 aJ]mCVB5h@[d^U42WKS943
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

@@ -1,0 +1,35 @@
+library ieee;
+use ieee.std_logic_1164.all;
+library work;
+use work.Gates.all;
+entity universal_shifter is
+port (L,b2,b1,b0,a7,a6,a5,a4,a3,a2,a1,a0: in std_logic;
+      s7,s6,s5,s4,s3,s2,s1,s0: out std_logic);
+end entity;
+architecture structure of universal_shifter is
+component bit_reverse is
+port (L,a7,a6,a5,a4,a3,a2,a1,a0: in std_logic;
+      s7,s6,s5,s4,s3,s2,s1,s0: out std_logic);
+end component;
+component n1_bit is 
+port (b0,a7,a6,a5,a4,a3,a2,a1,a0: in std_logic;
+      s7,s6,s5,s4,s3,s2,s1,s0: out std_logic);
+end component;
+component n2_bit is 
+port (b1,a7,a6,a5,a4,a3,a2,a1,a0: in std_logic;
+      s7,s6,s5,s4,s3,s2,s1,s0: out std_logic);
+end component;
+component n4_bit is 
+port (b2,a7,a6,a5,a4,a3,a2,a1,a0: in std_logic;
+      s7,s6,s5,s4,s3,s2,s1,s0: out std_logic);
+end component;
+signal L1,L2,L3,L4,L5,L6,L7,L8,L9,L10,L11,L12,L13,L14,L15,L16,L17,L18,L19,L20,L21,L22,L23,L24,L25,L26,L27,L28,L29,L30,L31,L32: std_logic;
+begin
+
+bit_reverse1:bit_reverse port map(L,a7,a6,a5,a4,a3,a2,a1,a0,L1,L2,L3,L4,L5,L6,L7,L8);
+n4_bit:n4_bit port map(b2,L1,L2,L3,L4,L5,L6,L7,L8,L9,L10,L11,L12,L13,L14,L15,L16);
+n2_bit:n2_bit port map(b1,L9,L10,L11,L12,L13,L14,L15,L16,L17,L18,L19,L20,L21,L22,L23,L24);
+n1_bit:n1_bit port map(b0,L17,L18,L19,L20,L21,L22,L23,L24,L25,L26,L27,L28,L29,L30,L31,L32);
+bit_reverse2:bit_reverse port map(L,L25,L26,L27,L28,L29,L30,L31,L32,s7,s6,s5,s4,s3,s2,s1,s0);
+
+end structure;

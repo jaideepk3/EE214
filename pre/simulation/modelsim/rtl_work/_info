@@ -1,0 +1,873 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Acer/Downloads/EE 214/Projects/midsem/simulation/modelsim
+Eand_2
+Z1 w1615012397
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8D:/Acer/Downloads/EE 214/Projects/midsem/code/Gates.vhdl
+Z5 FD:/Acer/Downloads/EE 214/Projects/midsem/code/Gates.vhdl
+l0
+L53 1
+VU7DI`Tzl@EfAQ?4z53E2F2
+!s100 1`nWBgISBZCVoBKm`L3TM3
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1615014526
+!i10b 1
+Z8 !s108 1615014526.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/Acer/Downloads/EE 214/Projects/midsem/code/Gates.vhdl|
+Z10 !s107 D:/Acer/Downloads/EE 214/Projects/midsem/code/Gates.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aequations
+R2
+R3
+DEx4 work 5 and_2 0 22 U7DI`Tzl@EfAQ?4z53E2F2
+!i122 0
+l58
+L57 4
+Vlhgfe[LY0eM?e_R:VHaZ:1
+!s100 6Ea@T?V>e39O6cgPlk<iS0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eand_3
+Z13 w1615012375
+Z14 DPx4 work 5 gates 0 22 @eB5S<QWaBmXNA4jc;3?G2
+R2
+R3
+!i122 4
+R0
+Z15 8D:/Acer/Downloads/EE 214/Projects/midsem/code/additional.vhdl
+Z16 FD:/Acer/Downloads/EE 214/Projects/midsem/code/additional.vhdl
+l0
+L8 1
+V5b2f]zeT@=M0V=T=TlG7`1
+!s100 7JF8e@cVi_Fn@Z2E8;IWM3
+R6
+31
+Z17 !s110 1615014527
+!i10b 1
+Z18 !s108 1615014527.000000
+Z19 !s90 -reportprogress|300|-93|-work|work|D:/Acer/Downloads/EE 214/Projects/midsem/code/additional.vhdl|
+Z20 !s107 D:/Acer/Downloads/EE 214/Projects/midsem/code/additional.vhdl|
+!i113 1
+R11
+R12
+Aequations
+R14
+R2
+R3
+DEx4 work 5 and_3 0 22 5b2f]zeT@=M0V=T=TlG7`1
+!i122 4
+l15
+L12 7
+VGjA:HJc>8]4H=IKJjhi0H2
+!s100 ^594zUUXVg=Vi4>2Da<4^2
+R6
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Eand_4
+R13
+R14
+R2
+R3
+!i122 4
+R0
+R15
+R16
+l0
+L25 1
+Vg364?W`gzWh7F[YM7:5Pm0
+!s100 @nln0_QgEI[OcDXTaj]U00
+R6
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Aequations
+R14
+R2
+R3
+DEx4 work 5 and_4 0 22 g364?W`gzWh7F[YM7:5Pm0
+!i122 4
+l32
+L29 8
+V6NET@:`^ghSFWM3CVW`Ab2
+!s100 eend_F21l>eoB?8dJBz6R0
+R6
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Ecount1
+Z21 w1615014011
+R14
+R2
+R3
+!i122 8
+R0
+Z22 8D:/Acer/Downloads/EE 214/Projects/midsem/code/COUNT1.vhdl
+Z23 FD:/Acer/Downloads/EE 214/Projects/midsem/code/COUNT1.vhdl
+l0
+L8 1
+VF5S_Y00]H:BO1c59zP6121
+!s100 gJ=mJh<MR6M^UPP<F<cKn1
+R6
+31
+R17
+!i10b 1
+R18
+Z24 !s90 -reportprogress|300|-93|-work|work|D:/Acer/Downloads/EE 214/Projects/midsem/code/COUNT1.vhdl|
+Z25 !s107 D:/Acer/Downloads/EE 214/Projects/midsem/code/COUNT1.vhdl|
+!i113 1
+R11
+R12
+Astr
+R14
+R2
+R3
+DEx4 work 6 count1 0 22 F5S_Y00]H:BO1c59zP6121
+!i122 8
+l24
+L15 16
+VjWhDRdzBX89Mie2<^2LnR3
+!s100 XK=JJVWo;K26:7UIB=EmK3
+R6
+31
+R17
+!i10b 1
+R18
+R24
+R25
+!i113 1
+R11
+R12
+Edut
+Z26 w1615013961
+R2
+R3
+!i122 1
+R0
+Z27 8D:/Acer/Downloads/EE 214/Projects/midsem/code/DUT.vhdl
+Z28 FD:/Acer/Downloads/EE 214/Projects/midsem/code/DUT.vhdl
+l0
+L7 1
+Vc?OD>iT:YIzE:5=SOTO_m1
+!s100 ]ac?2AMhCiA0WPK=5=6nf1
+R6
+31
+R7
+!i10b 1
+R8
+Z29 !s90 -reportprogress|300|-93|-work|work|D:/Acer/Downloads/EE 214/Projects/midsem/code/DUT.vhdl|
+Z30 !s107 D:/Acer/Downloads/EE 214/Projects/midsem/code/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 c?OD>iT:YIzE:5=SOTO_m1
+!i122 1
+l19
+L12 34
+V3KzA<0TCV2Ynk^MBGom4a3
+!s100 72K?1n7m55@AZ7[lzP?8d2
+R6
+31
+R7
+!i10b 1
+R8
+R29
+R30
+!i113 1
+R11
+R12
+Efull_adder
+Z31 w1610655462
+R14
+R2
+R3
+!i122 3
+R0
+Z32 8D:/Acer/Downloads/EE 214/Projects/midsem/code/Full_Adder.vhdl
+Z33 FD:/Acer/Downloads/EE 214/Projects/midsem/code/Full_Adder.vhdl
+l0
+L7 1
+VJ>TSK3V@fa0>oCX`@NTfi0
+!s100 X:XV7b@_a6eVIh2TXeXU:2
+R6
+31
+R17
+!i10b 1
+R18
+Z34 !s90 -reportprogress|300|-93|-work|work|D:/Acer/Downloads/EE 214/Projects/midsem/code/Full_Adder.vhdl|
+Z35 !s107 D:/Acer/Downloads/EE 214/Projects/midsem/code/Full_Adder.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R14
+R2
+R3
+DEx4 work 10 full_adder 0 22 J>TSK3V@fa0>oCX`@NTfi0
+!i122 3
+l12
+L10 14
+VDb^ljfQ?OkP7b=WRDfV^z2
+!s100 VnnS6P?]2A1:]TGdaJ7;e0
+R6
+31
+R17
+!i10b 1
+R18
+R34
+R35
+!i113 1
+R11
+R12
+Pgates
+R2
+R3
+!i122 0
+R1
+R0
+R4
+R5
+l0
+L3 1
+V@eB5S<QWaBmXNA4jc;3?G2
+!s100 N@iIgLVJlGZzK36CC:zf23
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalf_adder
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L120 1
+VOAZ_4ioR^1B[UAcaA1zf51
+!s100 oLN8>k[AMhPS;D9;:Z@Pz0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 10 half_adder 0 22 OAZ_4ioR^1B[UAcaA1zf51
+!i122 0
+l125
+L124 5
+VflMPld^`b]>0KKXzZhX_91
+!s100 ]f4Ql:1od=>zjRGlb:Lm:0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Einvb
+Z36 w1615012386
+R14
+R2
+R3
+!i122 6
+R0
+Z37 8D:/Acer/Downloads/EE 214/Projects/midsem/code/INVB.vhdl
+Z38 FD:/Acer/Downloads/EE 214/Projects/midsem/code/INVB.vhdl
+l0
+L8 1
+V@db`oDP;>@Tz_n1>?YHJC1
+!s100 YAHinQ0:Q5cLOI?o@5ZEK3
+R6
+31
+R17
+!i10b 1
+R18
+Z39 !s90 -reportprogress|300|-93|-work|work|D:/Acer/Downloads/EE 214/Projects/midsem/code/INVB.vhdl|
+Z40 !s107 D:/Acer/Downloads/EE 214/Projects/midsem/code/INVB.vhdl|
+!i113 1
+R11
+R12
+Astr
+R14
+R2
+R3
+DEx4 work 4 invb 0 22 @db`oDP;>@Tz_n1>?YHJC1
+!i122 6
+l16
+L14 9
+VK7EL>>TN]ol^k`H@VjWah1
+!s100 B6DLV6D01=93Rbh0:_:GS2
+R6
+31
+R17
+!i10b 1
+R18
+R39
+R40
+!i113 1
+R11
+R12
+Einverter
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L41 1
+V82BXV;Uza[l3mE]`8B<HJ0
+!s100 dFc@GWJO@nF57X0IXFVfh0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 8 inverter 0 22 82BXV;Uza[l3mE]`8B<HJ0
+!i122 0
+l46
+L45 4
+V4]gW5EV5;RT@9C;Pga@SA0
+!s100 [DD^:ihbY=VNQeLiKKX_R1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emux
+Z41 w1615014301
+R14
+R2
+R3
+!i122 2
+R0
+Z42 8D:/Acer/Downloads/EE 214/Projects/midsem/code/MUX.vhdl
+Z43 FD:/Acer/Downloads/EE 214/Projects/midsem/code/MUX.vhdl
+l0
+L8 1
+VzGALI4LO8b1RA0bI^c[Zk1
+!s100 UFgFGDakOAiDQEUGbhERC2
+R6
+31
+R7
+!i10b 1
+R8
+Z44 !s90 -reportprogress|300|-93|-work|work|D:/Acer/Downloads/EE 214/Projects/midsem/code/MUX.vhdl|
+Z45 !s107 D:/Acer/Downloads/EE 214/Projects/midsem/code/MUX.vhdl|
+!i113 1
+R11
+R12
+Astr
+R14
+R2
+R3
+DEx4 work 3 mux 0 22 zGALI4LO8b1RA0bI^c[Zk1
+!i122 2
+l31
+L19 55
+Vd1EKFXDAFAIA4k4JR@NOJ2
+!s100 ^TMf?lPlK7R@lKNDzh:Ie1
+R6
+31
+R7
+!i10b 1
+R8
+R44
+R45
+!i113 1
+R11
+R12
+Enand_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L64 1
+VS^YD8?>b_]W^^dkQa>_3m2
+!s100 S;kgn2U384cOg4>1Kcdn<2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 nand_2 0 22 S^YD8?>b_]W^^dkQa>_3m2
+!i122 0
+l69
+L68 4
+VS]`6`a7Bz3gbaB=WX@WdM2
+!s100 EBK=7IM2m_0=gIZGM@F7H1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enor_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L86 1
+V`A=6DP8fY`aBzcQ@Hgc?S1
+!s100 hCNF9lV5T>8fg2MR^]6f^0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 nor_2 0 22 `A=6DP8fY`aBzcQ@Hgc?S1
+!i122 0
+l91
+L90 4
+VIJ=]C?8]dETGzmXBGe8in2
+!s100 iWUJUdMb8DJi]m^=42G9F3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L75 1
+Ve?I6M>DO0lb4QOFDA10zP2
+!s100 _]<JbSG1DCI^d;kKCeeO:3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 4 or_2 0 22 e?I6M>DO0lb4QOFDA10zP2
+!i122 0
+l80
+L79 4
+V35?1APMW04D0M8BcdBhJ53
+!s100 kX9QLgDQM=e4dN7zDYk6o2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_4
+R13
+R14
+R2
+R3
+!i122 4
+R0
+R15
+R16
+l0
+L45 1
+V9<AAk?M@BPU`lOjN_Fa3^1
+!s100 IDMjMA;?F5illf?D[S9MA3
+R6
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Aequations
+R14
+R2
+R3
+DEx4 work 4 or_4 0 22 9<AAk?M@BPU`lOjN_Fa3^1
+!i122 4
+l52
+L49 8
+VjBkZeX`kV=6cKaemF>Ha80
+!s100 IEdc_Za_MmN=jlY@T29I>2
+R6
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Esqrr5
+Z46 w1615014492
+R14
+R2
+R3
+!i122 5
+R0
+Z47 8D:/Acer/Downloads/EE 214/Projects/midsem/code/SQRR5.vhdl
+Z48 FD:/Acer/Downloads/EE 214/Projects/midsem/code/SQRR5.vhdl
+l0
+L8 1
+VP[0h5N@=`4jgLnL1A0[?J0
+!s100 4]c@0EBiLo[cgE94SzOOI1
+R6
+31
+R17
+!i10b 1
+R18
+Z49 !s90 -reportprogress|300|-93|-work|work|D:/Acer/Downloads/EE 214/Projects/midsem/code/SQRR5.vhdl|
+Z50 !s107 D:/Acer/Downloads/EE 214/Projects/midsem/code/SQRR5.vhdl|
+!i113 1
+R11
+R12
+Astr
+R14
+R2
+R3
+DEx4 work 5 sqrr5 0 22 P[0h5N@=`4jgLnL1A0[?J0
+!i122 5
+l26
+L14 31
+VP1Lg7ecSO5TbAeeHV_7QJ2
+!s100 IYkj^@`d6QhP9o`5U?b^d1
+R6
+31
+R17
+!i10b 1
+R18
+R49
+R50
+!i113 1
+R11
+R12
+Etestbench
+Z51 w1615013480
+R3
+R2
+!i122 10
+R0
+Z52 8D:/Acer/Downloads/EE 214/Projects/midsem/code/Testbench.vhdl
+Z53 FD:/Acer/Downloads/EE 214/Projects/midsem/code/Testbench.vhdl
+l0
+L7 1
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+Z54 !s110 1615014528
+!i10b 1
+Z55 !s108 1615014528.000000
+Z56 !s90 -reportprogress|300|-93|-work|work|D:/Acer/Downloads/EE 214/Projects/midsem/code/Testbench.vhdl|
+!s107 D:/Acer/Downloads/EE 214/Projects/midsem/code/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+!i122 10
+l69
+L9 132
+VEU2m6^;jF@RHeBWG4eP`d2
+!s100 @<UUA3oSz=B_TmI3UGhh83
+R6
+31
+R54
+!i10b 1
+R55
+R56
+Z57 !s107 D:/Acer/Downloads/EE 214/Projects/midsem/code/Testbench.vhdl|
+!i113 1
+R11
+R12
+Etop
+Z58 w1615014060
+R14
+R2
+R3
+!i122 9
+R0
+Z59 8D:/Acer/Downloads/EE 214/Projects/midsem/code/Top.vhdl
+Z60 FD:/Acer/Downloads/EE 214/Projects/midsem/code/Top.vhdl
+l0
+L8 1
+V3>:VikF@UYKN5f1QLV?KH2
+!s100 LLkc3j?[QVbh7hzd0@GaE2
+R6
+31
+R54
+!i10b 1
+R55
+Z61 !s90 -reportprogress|300|-93|-work|work|D:/Acer/Downloads/EE 214/Projects/midsem/code/Top.vhdl|
+Z62 !s107 D:/Acer/Downloads/EE 214/Projects/midsem/code/Top.vhdl|
+!i113 1
+R11
+R12
+Astr
+R14
+R2
+R3
+DEx4 work 3 top 0 22 3>:VikF@UYKN5f1QLV?KH2
+!i122 9
+l55
+L15 82
+Vbd@Jf<`AF8L>i6e[XNhDh2
+!s100 5ieE_NVBXCDY[d`fdEm[U0
+R6
+31
+R54
+!i10b 1
+R55
+R61
+R62
+!i113 1
+R11
+R12
+Exnor_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L109 1
+VLHIUEA1`23`S5JTPo4JYA2
+!s100 M7SmBC<JLShUJ=5Tb^BGR1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 xnor_2 0 22 LHIUEA1`23`S5JTPo4JYA2
+!i122 0
+l114
+L113 4
+V]AR[iEm:1Y`=`f78Ab8?A2
+!s100 2L8]1Q4cBgn^[7D^6oj0;3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exnor_ab
+Z63 w1615012390
+R14
+R2
+R3
+!i122 7
+R0
+Z64 8D:/Acer/Downloads/EE 214/Projects/midsem/code/XNOR_AB.vhdl
+Z65 FD:/Acer/Downloads/EE 214/Projects/midsem/code/XNOR_AB.vhdl
+l0
+L8 1
+VkV<;k5Po>U`=73]OmFGLe0
+!s100 ;CdbNdDzdKn5dQ6P6gSmO0
+R6
+31
+R17
+!i10b 1
+R18
+Z66 !s90 -reportprogress|300|-93|-work|work|D:/Acer/Downloads/EE 214/Projects/midsem/code/XNOR_AB.vhdl|
+Z67 !s107 D:/Acer/Downloads/EE 214/Projects/midsem/code/XNOR_AB.vhdl|
+!i113 1
+R11
+R12
+Astr
+R14
+R2
+R3
+DEx4 work 7 xnor_ab 0 22 kV<;k5Po>U`=73]OmFGLe0
+!i122 7
+l17
+L15 9
+V8VKXoBVI63jeT8JGR=3_:2
+!s100 k=Z]YQTeAd`^?XQoA3m9m2
+R6
+31
+R17
+!i10b 1
+R18
+R66
+R67
+!i113 1
+R11
+R12
+Exor_2
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L98 1
+VV2P2KWfUW5e1Z=NMXBDJ;0
+!s100 DUe=@W;GH8KgEREMWIRML1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 xor_2 0 22 V2P2KWfUW5e1Z=NMXBDJ;0
+!i122 0
+l103
+L102 4
+VQUFBaT6OJ>c<=2In4b:>M1
+!s100 _g>6CYjRMmc7O[`k^N;co3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

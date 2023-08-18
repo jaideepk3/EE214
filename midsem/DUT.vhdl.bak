@@ -1,0 +1,23 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity DUT is
+   port(input_vector: in std_logic_vector(8 downto 0);
+       	output_vector: out std_logic_vector(11 downto 0));
+end entity;
+
+architecture DutWrap of DUT is
+   component atm is
+     port (I :in std_logic_vector(7 downto 0);Cout :out std_logic; S:out std_logic_vector(7 downto 0));
+   end component;
+begin
+    add_instance: atm 
+			port map (
+					
+					Cin => input_vector(2),
+					B   => input_vector(1),
+					A   => input_vector(0),
+					S => output_vector(1),
+					Cout => output_vector(0));
+
+end DutWrap;
+

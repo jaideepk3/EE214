@@ -1,0 +1,52 @@
+|DUT
+input_vector[0] => MUX_4bit:add_instance.S[0]
+input_vector[1] => MUX_4bit:add_instance.S[1]
+input_vector[2] => MUX_4bit:add_instance.A[0]
+input_vector[3] => MUX_4bit:add_instance.A[1]
+input_vector[4] => MUX_4bit:add_instance.A[2]
+input_vector[5] => MUX_4bit:add_instance.A[3]
+input_vector[6] => MUX_4bit:add_instance.B[0]
+input_vector[7] => MUX_4bit:add_instance.B[1]
+input_vector[8] => MUX_4bit:add_instance.B[2]
+input_vector[9] => MUX_4bit:add_instance.B[3]
+input_vector[10] => MUX_4bit:add_instance.C[0]
+input_vector[11] => MUX_4bit:add_instance.C[1]
+input_vector[12] => MUX_4bit:add_instance.C[2]
+input_vector[13] => MUX_4bit:add_instance.C[3]
+input_vector[14] => MUX_4bit:add_instance.D[0]
+input_vector[15] => MUX_4bit:add_instance.D[1]
+input_vector[16] => MUX_4bit:add_instance.D[2]
+input_vector[17] => MUX_4bit:add_instance.D[3]
+output_vector[0] << MUX_4bit:add_instance.Y[0]
+output_vector[1] << MUX_4bit:add_instance.Y[1]
+output_vector[2] << MUX_4bit:add_instance.Y[2]
+output_vector[3] << MUX_4bit:add_instance.Y[3]
+
+
+|DUT|MUX_4bit:add_instance
+A[0] => ~NO_FANOUT~
+A[1] => ~NO_FANOUT~
+A[2] => ~NO_FANOUT~
+A[3] => ~NO_FANOUT~
+B[0] => ~NO_FANOUT~
+B[1] => ~NO_FANOUT~
+B[2] => ~NO_FANOUT~
+B[3] => ~NO_FANOUT~
+C[0] => ~NO_FANOUT~
+C[1] => ~NO_FANOUT~
+C[2] => ~NO_FANOUT~
+C[3] => ~NO_FANOUT~
+D[0] => Y[0].DATAIN
+D[1] => Y[1].DATAIN
+D[2] => Y[2].DATAIN
+D[3] => Y[3].DATAIN
+S[0] => ~NO_FANOUT~
+S[1] => ~NO_FANOUT~
+S[2] => ~NO_FANOUT~
+S[3] => ~NO_FANOUT~
+Y[0] <= D[0].DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= D[1].DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= D[2].DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= D[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
